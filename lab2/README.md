@@ -1,9 +1,15 @@
 # Lab 2: Configuration Performance Learning
 ## Dataset details
-This lab covers the datasets for nine widely studied configurable systems, each featuring a distinct configuration space, covering different option types (e.g., integers,
-boolean, and enumerates) and dimensions. Specifically, these systems are
-carefully chosen to span a variety of application domains, performance objectives, and programming
-languages, as shown below:
+This lab contains datasets for nine widely studied configurable systems, each featuring different option types (e.g., integers, booleans, and enumerations), application domains, performance objectives, and programming languages.
+
+The repository has nine folders, one for each system. Inside each folder, you'll find multiple CSV files, each recording configuration and performance data under a specific workload. Particularly:
+
+- The first ***n-1* columns** represent the **configuration options**, and the **rightmost column** represents the **performance metric**;
+- Each **row** corresponds to one **measurement sample** of configuration and performance.
+
+Below is a detailed introduction to each system.
+
+---
 
 ### **JUMP3R**
 JUMP3R is a Java-based audio encoding system designed for efficient and high-performance audio processing. Audio encoding involves converting audio data into specific formats, often to reduce size while maintaining quality.  
