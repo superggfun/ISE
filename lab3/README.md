@@ -22,7 +22,7 @@ The project includes datasets for various configurable systems. Each dataset is 
 ### Notes
 - **Optimization Type:** All datasets are minimization problems, where smaller values indicate better results.
 - **Performance Objectives:**
-  - **Runtime & Energy:** Measures runtime and energy efficiency.
+  - **Runtime & Energy:** Measures runtime and energy efficiency (Only consider Runtime here).
   - **Latency:** Measures system delay during processing.
 
 
