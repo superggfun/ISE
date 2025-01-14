@@ -1,7 +1,6 @@
 # Lab1: Bug Report Classification 
 ## Dataset Details
 
-'''
 The experiment uses bug report data from popular deep learning frameworks:
 - PyTorch
 - TensorFlow
