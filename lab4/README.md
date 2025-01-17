@@ -3,16 +3,16 @@
 
 This table provides detailed descriptions of various datasets, focusing on their sensitive attributes and target labels.
 
-| **Dataset**           | **Sensitive Attributes**   | **Target Label**          | **Class**   | **Sensitive Attributes**     |
-|-----------------------|----------------------------|---------------------------|-------------|-----------------------------|
-| **ADULT**             | Sex, Race, Age             | Income                    | Binary      | Sex, Race, Age              |
-| **COMPAS**            | Sex, Race                  | Recidivism                | Binary      | Sex, Race                   |
-| **LAW SCHOOL**        | Gender, LSAT               | Pass the Bar Exam         | Binary      | Gender, LSAT                |
-| **KDD**               | Age, Gender                | Income                    | Binary      | Age, Gender                 |
-| **DUTCH**             | Sex                        | Occupation                | Binary      | Sex                         |
-| **CREDIT**            | Sex, Credit History        | Credit Score              | Binary      | Sex, Credit History         |
-| **CRIME**             | Race, Age                  | Violent Crimes Rate       | Multi       | Race, Age                   |
-| **GERMAN**            | Sex, Age                   | Credit Score              | Binary      | Sex, Age                    |
+| **Dataset**           | **Sensitive Attributes**   | **Target Label**          | **Class**   | 
+|-----------------------|----------------------------|---------------------------|-------------|
+| **ADULT**             | sex, race, age             | Class-label               | Binary      |
+| **COMPAS**            | Sex, Race                  | Recidivism                | Binary      | 
+| **LAW SCHOOL**        | male,race                  | pass_bar                  | Binary      | 
+| **KDD**               | sex, race                  | income                    | Binary      | 
+| **DUTCH**             | sex,age                    | occupation                | Binary      | 
+| **CREDIT**            | SEX,EDUCATION,MARRIAGE     | class                     | Binary      | 
+| **CRIME**             | Black,FemalePctDiv         | class                     | Multi       | 
+| **GERMAN**            | PersonStatusSex,AgeInYears | CREDITRATING              | Binary      | 
 
 ---
 
