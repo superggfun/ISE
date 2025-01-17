@@ -20,3 +20,4 @@ This table summarizes the sensitive attributes and target labels for each datase
 
 
 ## Trained neural network details
+Each dataset has a correspondingly named serialized DNN model that can be loaded and used for inference or further analysis without retraining.
