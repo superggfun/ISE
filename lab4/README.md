@@ -21,3 +21,10 @@ This table summarizes the sensitive attributes and target labels for each datase
 
 ## Trained neural network details
 Each dataset has a correspondingly named serialized DNN model that can be loaded and used for inference or further analysis without retraining.
+**Change the DNN model**:
+     - Replace the DNN model with the appropriate **serialized model** file.
+     - Ensure that the model is loaded using the correct method (e.g., `keras.models.load_model` for Keras models).
+     ```python
+     from keras.models import load_model
+     model = load_model('DNN/model_processed_adult.h5')
+     ```
