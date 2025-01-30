@@ -1,5 +1,5 @@
 ## Lab1: Logistic Regression and Naive Bayes Text Classification Lab Report
-##中文##
+## [中文](https://github.com/superggfun/ISE/blob/main/lab1/README_ZH-CN.md)
 #### **Objective**
 The goal of this experiment is to perform a binary classification task on text data based on the `caffe.csv`, `incubator-mxnet.csv`, `keras.csv`, pytorch.csv, and `tensorflow.csv` datasets to predict whether the text is relevant to a specific category (e.g., bug reports, performance issues, etc.).
 
