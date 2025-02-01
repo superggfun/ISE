@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error,
 from sklearn.preprocessing import OneHotEncoder
 
 # **1. 读取整个文件夹的 CSV 文件**
-data_dir = 'lab2/datasets/batlik'  # 修改为你的实际路径
+data_dir = 'lab2/datasets/batlik'
 merged_data = pd.DataFrame()
 
 for file_name in os.listdir(data_dir):
